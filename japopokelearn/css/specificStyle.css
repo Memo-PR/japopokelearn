@@ -1,0 +1,342 @@
+
+/* THEMES */
+.hiragana-theme {
+    background:
+        linear-gradient(
+            to bottom,
+            #fff8d6,
+            #ffe082
+        );
+}
+
+.hiragana-theme nav a:hover {
+    color: #5d4037;
+}
+
+.katakana-theme {
+    background:
+        linear-gradient(
+            to bottom,
+            #dcedc8,
+            #81c784
+        );
+}
+
+.katakana-theme nav a:hover {
+    color: #1b5e20;
+}
+
+
+.kanji-theme {
+    background:
+        linear-gradient(
+            to bottom,
+            #ede7f6,
+            #7e57c2
+        );
+}
+
+.kanji-theme nav a:hover {
+    color: #ede7f6;
+}
+
+
+
+
+.quiz-theme {
+    background:
+        linear-gradient(
+            to bottom,
+            #f8bbd0,
+            #ce93d8
+        );
+}
+
+.quiz-theme nav a:hover {
+    color: #fce4ec;
+}
+
+
+
+/* HIRAGANA HEADER */
+.hiragana-theme header {
+    background-color: #fbc02d;
+}
+
+/* KATAKANA HEADER */
+.katakana-theme header {
+    background-color: #43a047;
+}
+
+/* KANJI HEADER */
+.kanji-theme header {
+    background-color: #7e57c2;
+}
+
+/* QUIZ HEADER */
+.quiz-theme header {
+    background-color: #ec407a;
+}
+
+
+
+/* POKEMON SECTION */
+.pokemon-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: rgba(255,255,255,0.4);
+    padding: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    margin-bottom: 30px;
+    box-shadow:
+        0 6px 14px rgba(0,0,0,0.1);
+}
+
+
+/* POKEMON IMAGE */
+.pokemon-section img {
+    width: 180px;
+    transition: 0.3s;
+}
+
+
+.pokemon-section img:hover {
+    transform:
+        scale(1.08)
+        rotate(-2deg);
+}
+
+
+
+/* DESCRIPTION TEXT */
+.pokemon-section p {
+    font-size: 1.1rem;
+    color: #444;
+}
+
+
+
+
+/* THEME CARD COLORS */
+
+.hiragana-theme .card:hover {
+    border-color: #fbc02d;
+    background-color: #fffde7;
+}
+
+.katakana-theme .card:hover {
+    border-color: #43a047;
+    background-color: #f1f8e9;
+}
+
+.kanji-theme .card:hover {
+    border-color: #7e57c2;
+    background-color: #f3e5f5;
+}
+
+.quiz-theme .card:hover {
+    border-color: #ec407a;
+    background-color: #fce4ec;
+}
+
+
+
+
+/* N5 BUTTON */
+#n5-btn {
+    background-color: #66bb6a;
+}
+
+
+/* N4 BUTTON */
+#n4-btn {
+    background-color: #42a5f5;
+}
+
+
+/* QUIZ SECTION */
+
+.quiz-section {
+
+    background: rgba(255,255,255,0.4);
+
+    padding: 30px;
+
+    border-radius: 25px;
+
+    backdrop-filter: blur(5px);
+
+    box-shadow:
+        0 6px 14px rgba(0,0,0,0.1);
+
+}
+
+
+
+/* QUESTION */
+
+#question {
+
+    font-size: 2rem;
+
+    margin-bottom: 25px;
+
+    color: #333;
+
+}
+
+
+
+/* ANSWERS CONTAINER */
+
+#answers {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(180px, 1fr));
+
+    gap: 20px;
+
+}
+
+
+
+/* ANSWER BUTTONS */
+
+#answers button {
+
+    background: white;
+
+    color: #333;
+
+    border: none;
+
+    border-radius: 18px;
+
+    padding: 18px;
+
+    font-size: 1rem;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    box-shadow:
+        0 4px 10px rgba(0,0,0,0.1);
+
+}
+
+
+
+/* ANSWER HOVER */
+
+#answers button:hover {
+
+    transform:
+        translateY(-5px)
+        scale(1.03);
+
+}
+
+
+
+/* QUIZ THEME COLORS */
+
+.quiz-theme #answers button:hover {
+
+    background-color: #f8bbd0;
+
+    color: #4a148c;
+
+}
+
+
+
+/* RESULT TEXT */
+
+#result {
+
+    margin-top: 25px;
+
+    font-size: 1.4rem;
+
+    font-weight: bold;
+
+    color: #4a148c;
+
+}
+
+
+
+/* SCORE */
+
+#score {
+
+    margin-top: 15px;
+
+    font-size: 1.2rem;
+
+    font-weight: bold;
+
+    color: #333;
+
+}
+
+
+
+/* RESULT */
+#result {
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 60px;
+}
+
+
+.hero-text {
+    max-width: 500px;
+}
+
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+
+.hero img {
+    width: 500px;
+    transition: 0.3s;
+}
+
+
+.hero img:hover {
+    transform: scale(1.05);
+}
+
+/* START BUTTON */
+.start-btn {
+    background-color: #ffca28;
+    color: #222;
+    margin-top: 20px;
+    font-size: 1rem;
+    padding: 14px 28px;
+}
