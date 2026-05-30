@@ -1,6 +1,6 @@
 # japopokelearn
 * Guillermo Patiño Rodríguez
-* Learn japanese with pokemon
+* A website to learn japanese with pokemon.
 * https://japopokelearn.netlify.app/
 * https://github.com/Memo-PR/japopokelearn
 
